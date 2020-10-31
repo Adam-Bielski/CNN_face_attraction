@@ -4,7 +4,11 @@
 ------------------------------------------
 #### Quick Summary
 
-*The aim of the project is to on learned CNN predict attractiveness of the biggest 300 youtubers and check if there's a statistically valid correlation between their assessed attractiveness and the number of subscribers they have. It's been long speculated that being attractive can boost one's chances of being successful on youtube. The steps to achieve it are as following:*
+*The aim of the project is to predict attractiveness of the biggest 300 youtubers on learned CNN and check if there's a statistically valid correlation between their assessed attractiveness and the number of subscribers they have. It's been long speculated that being attractive can boost one's chances of being successful on youtube. This projects can confirm and disprove this thesis with high accuracy.
+
+#### Steps taken in the projects
+
+The steps to achieve it are as following:*
 
    
    1. *Train an auxilliary CNN to detect and rate such face features as: hair, facial hair, eyes, nose, cheeks, lips, age, gender, on images*
