@@ -81,7 +81,11 @@ Example of such preprocessing:
  ![alt text](https://github.com/Adam-Bielski/CNN_face_attraction/blob/main/Figures/Flow_jpg.jpg)
  
  
- 2. Build final CNN to predict attractiveness of a face:
+ 2. Build final CNN to predict attractiveness of a face
+ 
+ 
+ 
+ 
  
  
  
