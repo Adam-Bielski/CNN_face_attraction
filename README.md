@@ -56,10 +56,7 @@ Each image has to undergo a preprocessing, which include:
 Example of such preprocessing:
 
 
-
-
-
-
+![alt text](https://github.com/Adam-Bielski/CNN_face_attraction/blob/main/Figures/Preprocessing%20image.jpg)
 
 
 
