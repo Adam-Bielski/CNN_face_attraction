@@ -4,11 +4,11 @@
 ------------------------------------------
 #### Quick Summary
 
-*The aim of the project is to predict attractiveness of the biggest 300 youtubers on learned CNN and check if there's a statistically valid correlation between their assessed attractiveness and the number of subscribers they have. It's been long speculated that being attractive can boost one's chances of being successful on youtube. This projects can confirm and disprove this thesis with high accuracy.
+*The aim of the project is to predict attractiveness of the biggest 300 youtubers on learned CNN and check if there's a statistically valid correlation between their assessed attractiveness and the number of subscribers they have. It's been long speculated that being attractive can boost one's chances of being successful on youtube. This projects can confirm and disprove this thesis with high accuracy.*
 
 #### Steps taken in the projects
 
-The steps to achieve it are as following:*
+*The steps to achieve it are as following:*
 
    
    1. *Train an auxilliary CNN to detect and rate such face features as: hair, facial hair, eyes, nose, cheeks, lips, age, gender, on images*
@@ -16,7 +16,7 @@ The steps to achieve it are as following:*
    3. *Web-scrape the names of 300 most popular youtubers*
    4. *Save 10 top images that pop up after writing name of those youtubers in Google Image*
    5. *Based on 10 images per youtubers assess their attractivess*
-   6. *Run statistical analysis to check if there's a statistically valid correlation*
+   6. *Run statistical analysis to check if there's a statistically valid correlation between attractiveness and the number of subscribers*
    
    
 #### Source of data (face images)
@@ -27,9 +27,21 @@ As mentioned on the website, the CelebA dataset is available for non-commercial 
 
 The algorithm relies on the correct specification of the data when it comes to the assessed attractiveness and other characteristics
 
+
+
+-----------------------------------
+   
+#### Preprocessing of images
+
+
+Each image has to undergo a preprocessing, which include:
+
+
+   1. Detecting a face --> getting coordinates of the box around a face --> cutting off image to fit the 150% size of the box
+         Although raw images are already faces, performance of the classifier will be higher if we cut off unnecessary stuff. 150% of the size of boxes ensures that hair/eyeglasses/facial hair will be included on an image.
    
    
-   
+ 
 
 
 
