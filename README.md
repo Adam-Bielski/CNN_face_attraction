@@ -38,9 +38,9 @@ Each image has to undergo a preprocessing, which include:
 
 
    1. "Pruning of images"
-         *Detecting a face
-         *Getting coordinates of the box around a face 
-         *Cutting off image to fit the 150% size of the box
+         * Detecting a face
+         * Getting coordinates of the box around a face 
+         * Cutting off image to fit the 150% size of the box
          
          Although raw images are already faces, performance of the classifier will be higher if we cut off unnecessary stuff. 150% of the size of boxes ensures that hair/eyeglasses/facial hair will be included on an image.
    
