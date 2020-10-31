@@ -59,12 +59,30 @@ Example of such preprocessing:
 ![alt text](https://github.com/Adam-Bielski/CNN_face_attraction/blob/main/Figures/Preprocessing%20image.jpg)
 
 
+<br/><br/>
 
 
+#### Building CNNs
+
+
+   1. Build auxiliary CCNs to detect face features, such as:
+         * Eyeglasses
+         * Hair (Bald, Receding hairline)
+         * Facial hair (Mustache, Beard, Sideburns, 5_o_clock_shadow, Goatee, Double Chine)
+         * Eyes (Narrow eyes, Bags under eyes)
+         * Cheeks (Rosy cheeks, High cheeks)
+         * Lips (Big lips)
+         * Young
+         * Gender
+  
+  
+  Some features are used to predict others. To get better understanding of it, look at the graph below:       
          
-         
-         
-   
+ ![alt text](https://github.com/Adam-Bielski/CNN_face_attraction/blob/main/Figures/Flow_jpg.jpg)
+
+
+
+  
    
  
 
