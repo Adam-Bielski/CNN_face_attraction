@@ -79,6 +79,12 @@ Example of such preprocessing:
   Some features are used to predict others. To get better understanding of it, look at the graph below:       
          
  ![alt text](https://github.com/Adam-Bielski/CNN_face_attraction/blob/main/Figures/Flow_jpg.jpg)
+ 
+ 
+ 2. Build final CNN to predict attractiveness of a face:
+ 
+ 
+ 
 
 
 
