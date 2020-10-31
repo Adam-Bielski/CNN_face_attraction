@@ -1,6 +1,8 @@
 # CNN for faces classification
 ### Classification of faces based on their attractiveness + checking for correlation between attractiveness and the number of subscription on youtube
-
+<br/><br/>
+<br/><br/>
+<br/><br/>
 ------------------------------------------
 #### Quick Summary
 
@@ -18,7 +20,7 @@
    5. *Based on 10 images per youtubers assess their attractivess*
    6. *Run statistical analysis to check if there's a statistically valid correlation between attractiveness and the number of subscribers*
    
-   
+<br/><br/>
 #### Source of data (face images)
 
 Face images used to train models were collected by researchers at MMLAB, The Chinese University of Hong Kong.
@@ -27,7 +29,7 @@ As mentioned on the website, the CelebA dataset is available for non-commercial 
 
 The algorithm relies on the correct specification of the data when it comes to the assessed attractiveness and other characteristics
 
-
+<br/><br/>
 
 -----------------------------------
    
